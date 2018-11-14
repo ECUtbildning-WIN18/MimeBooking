@@ -1,12 +1,14 @@
-﻿using System;
+﻿using MimeBooking.Views;
+using System;
 
 namespace MimeBooking
 {
     class Program
     {
+        static MainMenu Mainmenu = new MainMenu();
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Mainmenu.Display();
         }
     }
 }
